@@ -23,6 +23,7 @@ function useCartReducer () {
 
 // la dependencia de usar React Context
 // es MÍNIMA
+// eslint-disable-next-line react/prop-types
 export function CartProvider ({ children }) {
   const { state, addToCart, removeFromCart, clearCart } = useCartReducer()
 

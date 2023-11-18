@@ -4,6 +4,7 @@ import { useId } from "react";
 import { CartIcon, ClearCartIcon  } from "./Icons";
 import { useCart } from "../hooks/useCart";
 
+// eslint-disable-next-line react/prop-types
 function CartItem ({ thumbnail, price, title, quantity, addToCart }) {
   return (
     <li>
